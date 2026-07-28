@@ -174,3 +174,46 @@ a { color: var(--primary-dark); text-underline-offset: 4px; }
   background: var(--primary-dark);
   opacity: 1;
 }
+
+.notice {
+    background: #f4efff;
+    border-left: 4px solid #7C5CFF;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 24px 0;
+    line-height: 1.7;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #7C5CFF;
+    font-size: 20px;
+}
+
+.card p {
+    line-height: 1.8;
+}
+
+.footer-nav {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: #7C5CFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-nav span {
+    margin: 0 10px;
+    color: #bbb;
+}
